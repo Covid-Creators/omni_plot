@@ -1,0 +1,10 @@
+
+@light-blue = #4a3eff
+@darker-blue = #3d34cc
+
+@light-gray = #dfe4e6
+@medium-gray = #78909c
+@dark-gray = #263238
+
+@orange = #ffab00
+@bright-red = #de350b

@@ -1,0 +1,197 @@
+QMainWindow
+{
+ /* background-color: white; */
+}
+
+RowFrame
+{
+ background-color: white;
+ border-radius:9;
+}
+
+QScrollArea
+{
+ border:none;
+}
+
+QHBoxLayout
+{
+ border:none;
+ margin:0;
+ spacing:20;
+}
+
+QVBoxLayout
+{
+ border:none;
+ margin:0;
+ spacing:20;
+}
+
+
+QPushButton
+{
+ icon-size:30px;
+ background-color:#dfe4e6;
+ margin:0;
+ border-radius:6;
+ outline:none;
+ min-width:50;
+ min-height:25;
+ padding-left:10;
+ padding-right:10;
+}
+QPushButton:hover
+{
+ background-color:#4a3eff;
+ color:white;
+}
+QPushButton:checked
+{
+ background-color:#ffab00;
+}
+
+SquareButton
+{
+ min-width:25;width:25;
+ padding:5;
+}
+
+QTabWidget
+{
+ border:none;
+}
+
+QTabWidget::pane
+{
+ border:none;
+}
+QTabWidget::tab-bar
+{
+ border:none;
+}
+
+QTabBar
+{
+ border:none;
+}
+QTabBar::pane
+{
+ border:none;
+}
+QTabBar::tab
+{
+ border:none;
+ margin:2;
+ /*margin-left:2;
+ margin-right:2;*/
+ border-radius:6;
+ outline:none;
+ min-width:50;
+ min-height:25;
+ padding-left:10;
+ padding-right:10;
+}
+
+QTabBar::tab:!selected {
+ background-color: #dfe4e6;
+ /* margin-top: 4px; make non-selected tabs look smaller */
+}
+QTabBar::tab:hover {
+ background-color: #4a3eff;
+ color:white;
+}
+QTabBar::tab:selected {
+ background-color:#78909c;
+ color:white;
+}
+QTabBar::close-button
+{
+ image:url("images/icon-delete.svg");
+}
+QTabBar::close-button:hover
+{
+ /* TODO put a circle around the icon-delete like in Chrome */
+ image:url("images/icon-trash.svg");
+}
+
+InteractiveLayout
+{
+ margin:0;
+}
+
+ImageIdentifiableButton
+{
+ border-radius:0;
+}
+ImageIdentifiableButton:hover
+{
+ background-color:gray;
+}
+
+ExtraSmallButton
+{
+ min-width:25;
+ min-height:25;
+ icon-size:10;
+ padding:0;
+}
+
+ExtraTallButton
+{
+ min-width:15;
+ min-height:15;
+ max-height:4000;
+ width:15;
+ padding:0;
+ margin:0;
+}
+
+ExtraWideButton
+{
+ min-height:15;
+ min-width:15;
+ height:15;
+ padding:0;
+ margin:0;
+}
+
+TopSideButton{
+ icon-size:15px;qproperty-icon:url("images/icon-arrow-up.svg");
+ border-radius:6;
+ border-bottom-left-radius:0;border-bottom-right-radius:0;
+ min-height:10;height:15;max-height:15;
+ margin-top:5;
+}
+LeftSideButton{
+ icon-size:15px;qproperty-icon:url("images/icon-arrow-left.svg");
+ border-radius:6;
+ border-top-right-radius:0;border-bottom-right-radius:0;
+ min-width:10;width:15;max-width:15;
+ margin-left:5;
+}
+RightSideButton{
+ icon-size:15px;qproperty-icon:url("images/icon-arrow-right.svg");
+ border-radius:6;
+ border-top-left-radius:0;border-bottom-left-radius:0;
+ min-width:10;width:15;max-width:15;
+ margin-right:5;
+}
+
+BottomSideButton{
+ icon-size:15px;qproperty-icon:url("images/icon-arrow-down.svg");
+ border-radius:6;
+ border-top-left-radius:0;border-top-right-radius:0;
+ min-height:10;height:15;max-height:15;
+ margin-bottom:5;
+}
+
+HorzAddButton{icon-size:25px;qproperty-icon:url("images/icon-add.svg");}
+HorzRmvButton{icon-size:25px;qproperty-icon:url("images/icon-remove.svg");}
+VertAddButton{icon-size:25px;qproperty-icon:url("images/icon-add.svg");}
+VertRmvButton{icon-size:25px;qproperty-icon:url("images/icon-remove.svg");}
+SquareCloseButton{icon-size:20px;qproperty-icon:url("images/icon-delete.svg");}
+SquareCloseButton:hover{background-color:#ffab00;}
+SquareRotateButton{icon-size:20px;qproperty-icon:url("images/icon-rotate.svg");}
+
+AbstractEquationRow{background-color:white;border-radius:10px;}
